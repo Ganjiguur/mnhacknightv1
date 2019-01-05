@@ -1,9 +1,6 @@
 ![](https://s3-ap-southeast-1.amazonaws.com/fibo-resources/hacknight1.jpg)
 
-
-
 # AWS Mongolian Community-д тавтай морилно уу!
-
 ### Доорх ойлголтуудыг нэгтгэж Text-to-Speech simple project хийх болно.
 - AWS Lambda
 - Python programming language (AWS boto library)
@@ -89,8 +86,8 @@ BUCKET_NAME: mnhacknight-mp3 (Section 4)
 - **Test Hello World**
 ```
 {
-	"voice": "Joanna",
-	"text": "Hello Amazon Web Services Mongolian Community!"
+    "voice": "Joanna",
+    "text": "Hello Amazon Web Services Mongolian Community!"
 }
 ```
 - **Check DynamoDB table**
@@ -124,7 +121,7 @@ Get request-ийн URL-с параметер авахын тулд Mapping хи�
 Integration request -> Body Mapping Templates -> When there are no templates defined -> application/json гэж бичиж оруулна
 ```
 {
-	"postId": "$input.params('postId')"
+    "postId": "$input.params('postId')"
 }
 ```
 
