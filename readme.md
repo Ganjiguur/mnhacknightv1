@@ -25,8 +25,8 @@
 ### 4. Create 2 buckets
 Bucket name must be globally unique!
 Өөрсдийн нэрээр нэрлэнэ үү.
-**Bucket #1**: mnhacknight-web  (web ажиллах bucket, domain холбох бол  **www.jiguur001.tk**)
-**Bucket #2**: mnhacknight-mp3  (mp3 file хадгалах bucket)
+- **Bucket #1**: mnhacknight-web  (web ажиллах bucket, domain холбох бол  **www.jiguur001.tk**)
+- **Bucket #2**: mnhacknight-mp3  (mp3 file хадгалах bucket)
 
 >Make them public
 
