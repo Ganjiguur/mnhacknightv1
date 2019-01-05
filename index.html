@@ -1,0 +1,67 @@
+<html>
+  <head><title>AWS Mongolian Community</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body><h1>AWS Hacknight Vol.1</h1>
+
+    <div id="content">
+
+      Voice:
+
+      <select id="voiceSelected">
+        <option value="Ivy">Ivy [English - American]</option>
+        <option value="Joanna">Joanna [English - American]</option>
+        <option value="Joey">Joey [English - American]</option>
+        <option value="Justin">Justin [English - American]</option>
+        <option value="Kendra">Kendra [English - American]</option> 
+        <option value="Kimberly">Kimberly [English - American]</option>
+        <option value="Salli">Salli [English - American]</option>
+        <option value="Nicole">Nicole [English - Australian]</option>
+        <option value="Russell">Russell [English - Australian]</option>
+        <option value="Emma">Emma [English - British]</option>
+        <option value="Brian">Brian [English - British]</option>
+        <option value="Amy">Amy [English - British]</option>
+        <option value="Raveena">Raveena [English - Indian]</option>        
+        <option value="Geraint">Geraint [English - Welsh]</option>
+      </select>
+
+      <input type="submit" value="Say it!" id="sayButton" class="buttons">
+
+      <span id="postIDreturned"></span>
+    </br></br>
+
+    <textarea id ="postText"></textarea>
+    <span id="charCounter">Characters: 0</span>
+
+    </br></br></br></br>
+      Provide post ID which you want to retrieve: <input type="text" id="postId"> <input type="submit" class="buttons" value="Search" id="searchButton">
+      <br/>
+    </div>
+
+
+
+      <table id="posts">
+        <colgroup>
+          <col style="width:10%">
+          <col style="width:7%">
+          <col style="width:45%">
+          <col style="width:8%">
+          <col style="width:30%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Post ID</th>
+            <th>Voice</th>
+            <th>Post</th>
+            <th>Status</th>
+            <th>Player</th>
+          </tr>
+        </tbody>
+      </table>
+
+
+    <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+  </body>
+</html>
