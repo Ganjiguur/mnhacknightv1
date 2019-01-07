@@ -65,6 +65,7 @@ Bucket name must be globally unique!
 #### 5.2. Create a Role using policy
 >**Name**: LambdaRoleForHacknightV1
 **Choose existing role**: LambdaPolicyForHacknightV1
+**Service**: Lambda
 
 ### 6. Create Lambda functions from scratch
 #### 6.1. HacknightV1_NewText (Name)
@@ -138,7 +139,7 @@ other fields all **prod**
 ### 8. Replace API URL
 scripts.js хамгийн дээр хуулна
 ### 9. Make static website hosting
-Add 2 following files.
+Go to S3 and add 2 following files.
 >index.html
 error.html
 
@@ -157,6 +158,8 @@ Add policy:
   ]
 }
 ```
+Make public access on Access control list
+
 Then try deleting **index.html**
 ### 10. Upload web files to our bucket
 > index.html
