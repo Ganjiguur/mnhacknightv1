@@ -19,7 +19,7 @@
 2019 оны I сарын байдлаар AWS 16 ширхэг public region-той байна. Өнөөдөр hacknight-р бид **Tokyo** region дээр ажиллах болно.  
 
 ### 3. Create DynamoDB table
->**Table name:** posts
+>**Table name:** texts
 **primary key:** id (String) - Lowercase!
 
 ### 4. Create 2 buckets
@@ -79,7 +79,7 @@ Bucket name must be globally unique!
 Use the file name: **newtext.py**
 
 - **Add environment variables**
-DB_TABLE_NAME: posts
+DB_TABLE_NAME: texts
 BUCKET_NAME: mnhacknight-mp3 (Section 4)
 - **Add description**
 - **Set time-out to 5 mins**
@@ -101,7 +101,7 @@ BUCKET_NAME: mnhacknight-mp3 (Section 4)
 Use the file name: **gettext.py**
 
 - **Add environment variables**
-DB_TABLE_NAME: posts
+DB_TABLE_NAME: texts
 - **Add function description**
 - **Set time-ut to 5 secs**
 - **Test Hello World**
