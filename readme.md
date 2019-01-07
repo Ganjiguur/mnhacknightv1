@@ -9,7 +9,7 @@
 - AWS Dynamo DB
 - AWS Polly service
 
-![](https://s3-ap-southeast-1.amazonaws.com/fibo-resources/hacknight1-topology.png)
+![](https://s3-ap-southeast-1.amazonaws.com/fibo-resources/hacknight1-topology.jpg)
 
 ### 1. AWS account үүсгэх
 
