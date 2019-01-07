@@ -63,8 +63,8 @@ Bucket name must be globally unique!
 ```
 
 #### 5.2. Create a Role using policy
->**Name**: LambdaRoleForHacknightV1
-**Choose existing role**: LambdaPolicyForHacknightV1
+>**Name**: LambdaRoleForHacknightV1  
+**Choose existing role**: LambdaPolicyForHacknightV1  
 **Service**: Lambda
 
 ### 6. Create Lambda functions from scratch
@@ -74,14 +74,14 @@ Bucket name must be globally unique!
 - DynamoDB-с түүнийгээ select хийж Polly service ашиглан mp3 болгоно
 - mp3 болгосон file-г S3 bucket дотор хадгална
 
->**Python 2.7**
+>**Python 2.7**  
 **Choose an existing role:** LambdaRoleForHacknightV1
 
 Use the file name: **newtext.py**
 
-- **Add environment variables**
-DB_TABLE_NAME: texts
-BUCKET_NAME: mnhacknight-mp3 (Section 4)
+- **Add environment variables**  
+DB_TABLE_NAME: texts  
+BUCKET_NAME: mnhacknight-mp3 (Section 4 дээр өгсөн нэр)
 - **Add description**
 - **Set time-out to 5 mins**
 - **Test Hello World**
@@ -96,7 +96,7 @@ BUCKET_NAME: mnhacknight-mp3 (Section 4)
 #### 6.2. HacknightV1_GetText (Name)
 **Зориулалт:** DynamoDB-с утгуудыг query-дэнэ
 
->**Python 2.7**
+>**Python 2.7**  
 **Choose an existing role:** LambdaRoleForHacknightV1
 
 Use the file name: **gettext.py**
@@ -116,9 +116,9 @@ DB_TABLE_NAME: texts
 **Name:** HacknightV1API
 
 - Add GET Method
-Integration type: Lambda function 
-Target: **HacknightV1_GetText**
-Get request-ийн URL-с параметер авахын тулд Mapping хийж өгөх ёстой
+Integration type: Lambda function  
+Target: **HacknightV1_GetText**  
+Get request-ийн URL-с параметер авахын тулд Mapping хийж өгөх ёстой  
 Integration request -> Body Mapping Templates -> When there are no templates defined -> application/json гэж бичиж оруулна
 ```
 {
