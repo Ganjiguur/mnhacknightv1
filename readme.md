@@ -140,6 +140,9 @@ other fields all **prod**
 scripts.js хамгийн дээр хуулна
 ### 9. Make static website hosting
 Go to S3 and add 2 following files.
+```
+echo '<h1>Hello world</h1>' < index.html
+```
 >index.html
 error.html
 
