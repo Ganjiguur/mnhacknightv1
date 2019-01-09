@@ -171,6 +171,7 @@ styles.css
 
 Select all show dummy data, then delete it from DynamoDB
 
+### Extra S3, SSL, Domain name
 
 0. bucket name must be same as domain name /N.Virginia/
 1. Freenom - Request new domain, wait ns /mnhacknight.ml/
