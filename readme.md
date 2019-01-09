@@ -172,6 +172,17 @@ styles.css
 Select all show dummy data, then delete it from DynamoDB
 
 
+0. bucket name must be same as domain name /N.Virginia/
+1. Freenom - Request new domain, wait ns /mnhacknight.ml/
+2. Route53 - create a hosted zone /mnhacknight.ml/
+3. Fill namespaces in Freenom
+4. Create cloudfront distribution with s3 bucket /index.html, ~30min/
+5. request certificate. mnhacknight.ml, validate with DNS, Create record set with Route53
+6. Edit distribution with SSL certificate
+7. Invalidate
+8. edit Route53 a record route to Cloudfront
+
+
 
 
 
