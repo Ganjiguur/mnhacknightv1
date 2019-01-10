@@ -183,7 +183,8 @@ Select all show dummy data, then delete it from DynamoDB
 7. Invalidate
 8. edit Route53 a record route to Cloudfront
 
-
+### Join the Community!
+https://www.facebook.com/groups/awsmongolia/
 
 
 
